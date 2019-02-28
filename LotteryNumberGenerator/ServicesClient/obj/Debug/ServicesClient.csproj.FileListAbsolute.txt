@@ -1,0 +1,6 @@
+G:\Chaithanya\TestProject\ServicesClient\bin\Debug\ServicesClient.dll
+G:\Chaithanya\TestProject\ServicesClient\bin\Debug\ServicesClient.pdb
+G:\Chaithanya\TestProject\ServicesClient\bin\Debug\ExceptionLogger.dll
+G:\Chaithanya\TestProject\ServicesClient\bin\Debug\ExceptionLogger.pdb
+G:\Chaithanya\TestProject\ServicesClient\obj\Debug\ServicesClient.dll
+G:\Chaithanya\TestProject\ServicesClient\obj\Debug\ServicesClient.pdb

@@ -1,0 +1,30 @@
+﻿@model LotteryClient.Models.NumberSeriesModel
+
+@{
+    ViewBag.Title = "Generate";
+}    
+
+<h2>Lottery Number Generator</h2>
+<span style="color:red">@ViewBag.ErrMessage</span>
+@using (Html.BeginForm())
+{    
+    <span>Series Length: </span>
+    @Html.TextBoxFor(item => item.SeriesLength, new { @id = "SeriesLengthTextBox", @class = "form-control", Value = "", autocomplete = "off", @type = "number" })
+
+    <br />
+    <span>Generate numbers between Min:</span> 
+      @Html.TextBoxFor(item => item.NumberMin, new { @id = "MinTextBox", @class = "form-control", Value = "", autocomplete = "off", @type = "number"  })
+    <span>and Max:</span> 
+      @Html.TextBoxFor(item => item.NumberMax, new { @id = "MaxTextBox", @class = "form-control", Value = "", autocomplete = "off", @type = "number" })
+    <br />
+    <input type="submit" id="Generate" name="GenerateButton" value="Generate" class="btn" />
+    <br /><br />
+   
+    int i = 0;
+    foreach (var @num in Model.LotteryNumbers)
+    { 
+        <span class="@Model.NumbersClass[i]">@num.ToString()</span> <span></span>  
+        i++;
+    }
+          
+}

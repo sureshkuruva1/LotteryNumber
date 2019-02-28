@@ -1,0 +1,4 @@
+G:\Chaithanya\TestProject\ExceptionLogger\bin\Debug\ExceptionLogger.dll
+G:\Chaithanya\TestProject\ExceptionLogger\bin\Debug\ExceptionLogger.pdb
+G:\Chaithanya\TestProject\ExceptionLogger\obj\Debug\ExceptionLogger.dll
+G:\Chaithanya\TestProject\ExceptionLogger\obj\Debug\ExceptionLogger.pdb
